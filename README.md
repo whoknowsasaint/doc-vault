@@ -159,6 +159,17 @@ doc-streamvaultt.org/
 └── package.json
 
 ```
+## 📸 Screenshots
+
+| Homepage | Search Results | TV Show Page |
+|----------|---------------|--------------|
+| ![Home](./home.png) | ![Search](./search.png) | ![TV](./tv.png) |
+
+| Watch Page | Movie Page | Episode Browser |
+|-----------|------------|-----------------|
+| ![Watch](./watch.png) | ![Movie](./movie.png) | ![Episodes](./episodes.png) |
+
+[▶️ Watch Demo Video](./demo.mp4)
 
 ---
 

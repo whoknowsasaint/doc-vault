@@ -142,6 +142,4 @@ Private. All rights reserved.
 
 - GitHub: [whoknowsasaint](https://github.com/whoknowsasaint)
 
-- Removed the duplicate horizontal rule artifacts
-
 Copy the block above and paste it into your README.md.

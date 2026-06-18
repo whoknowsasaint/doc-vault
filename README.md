@@ -91,39 +91,40 @@ Vault is a full-stack web application for searching movies and TV shows, browsin
 
 ## Project Structure
 
-doc-whoknowsasaint.org/
-src/
-app/
-api/
-discover/      TMDB discovery endpoint
-omdb/          OMDb API proxy
-tmdb/          TMDB API proxy
-movie/[id]/      Movie detail page
-search/          Search results page
-tv/[id]/         TV show page
-watch/[id]/      Video player page
-components/
-DynamicGreeting.jsx    Time-based hero greeting
-FilterableSection.jsx    Language-filtered content rows
-Navbar.jsx               Glassmorphism navigation
-PosterRow.jsx            Horizontal poster grid
-SectionDivider.jsx       Premium divider with label
-TVEpisodes.jsx           Season accordion + episode grid
-VideoPlayer.jsx          Embed player with server switching
-lib/
-omdb.js          OMDb API wrapper
-tmdb.js          TMDB API wrapper
-public/fonts/
-acorn-semibold.woff2
-env.local            Environment variables
-next.config.mjs      Next.js configuration
-tailwind.config.js   Tailwind CSS configuration
-package.json         Dependencies and scripts
+**App Routes**
+- `src/app/api/discover/` — TMDB discovery endpoint
+- `src/app/api/omdb/` — OMDb API proxy
+- `src/app/api/tmdb/` — TMDB API proxy
+- `src/app/movie/[id]/` — Movie detail page
+- `src/app/search/` — Search results page
+- `src/app/tv/[id]/` — TV show page
+- `src/app/watch/[id]/` — Video player page
+
+**Components**
+- `src/components/DynamicGreeting.jsx` — Time-based hero greeting
+- `src/components/FilterableSection.jsx` — Language-filtered content rows
+- `src/components/Navbar.jsx` — Glassmorphism navigation
+- `src/components/PosterRow.jsx` — Horizontal poster grid
+- `src/components/SectionDivider.jsx` — Premium divider with label
+- `src/components/TVEpisodes.jsx` — Season accordion + episode grid
+- `src/components/VideoPlayer.jsx` — Embed player with server switching
+
+**Libraries**
+- `src/lib/omdb.js` — OMDb API wrapper
+- `src/lib/tmdb.js` — TMDB API wrapper
+
+**Assets & Config**
+- `public/fonts/acorn-semibold.woff2` — Heading font
+- `env.local` — Environment variables
+- `next.config.mjs` — Next.js configuration
+- `tailwind.config.js` — Tailwind CSS configuration
+- `package.json` — Dependencies and scripts
+
 
 
 ## Deployment
 
-Deployed on Pxxl (production) and Vercel.
+Deployed
 
 ## Lessons Learned
 

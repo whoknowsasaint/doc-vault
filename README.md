@@ -1,4 +1,3 @@
-
 # doc-Vault
 
 A premium streaming discovery platform built with Next.js, TMDB, and custom embedding logic. Designed for speed, elegance, and an immersive browsing experience.
@@ -121,7 +120,6 @@ Vault is a full-stack web application for searching movies and TV shows, browsin
 - `package.json` — Dependencies and scripts
 
 
-
 ## Deployment
 
 Deployed
@@ -142,4 +140,3 @@ Private. All rights reserved.
 
 - GitHub: [whoknowsasaint](https://github.com/whoknowsasaint)
 
-Copy the block above and paste it into your README.md.

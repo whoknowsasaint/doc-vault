@@ -110,35 +110,35 @@ Built as a personal project, it demonstrates advanced Next.js patterns, API prox
 
 ## 📂 Project Structure
 
-doc-streamvaultt.org/
-├── src/
-│   ├── app/
-│   │   ├── api/
-│   │   │   ├── discover/
-│   │   │   ├── omdb/
-│   │   │   └── tmdb/
-│   │   ├── movie/[id]/
-│   │   ├── search/
-│   │   ├── tv/[id]/
-│   │   └── watch/[id]/
-│   ├── components/
-│   │   ├── DynamicGreeting.jsx
-│   │   ├── FilterableSection.jsx
-│   │   ├── Navbar.jsx
-│   │   ├── PosterRow.jsx
-│   │   ├── SectionDivider.jsx
-│   │   ├── TVEpisodes.jsx
-│   │   └── VideoPlayer.jsx
-│   └── lib/
-│       ├── omdb.js
-│       └── tmdb.js
-├── public/
-│   └── fonts/
-│       └── acorn-semibold.woff2
-├── .env.local
-├── next.config.mjs
-├── tailwind.config.js
-└── package.json
+doc-whoknowsasaint.org/
+
+· src/
+  · app/
+    · api/
+      · discover/ – TMDB discovery endpoint
+      · omdb/ – OMDb API proxy
+      · tmdb/ – TMDB API proxy
+    · movie/[id]/ – Movie detail page
+    · search/ – Search results page
+    · tv/[id]/ – TV show page
+    · watch/[id]/ – Video player page
+  · components/
+    · DynamicGreeting.jsx – Time‑based hero greeting
+    · FilterableSection.jsx – Language‑filtered content rows
+    · Navbar.jsx – Glass‑morphism navigation
+    · PosterRow.jsx – Horizontal poster grid
+    · SectionDivider.jsx – Premium divider with label
+    · TVEpisodes.jsx – Season accordion + episode grid
+    · VideoPlayer.jsx – Embed player with server switching
+  · lib/
+    · omdb.js – OMDb API wrapper
+    · tmdb.js – TMDB API wrapper
+· public/fonts/
+  · acorn-semibold.woff2 – Acorn font file
+· env.local – Environment variables
+· next.config.mjs – Next.js configuration
+· tailwind.config.js – Tailwind CSS configuration
+· package.json – Dependencies and scripts
 
 
 ---
